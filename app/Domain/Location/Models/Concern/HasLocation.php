@@ -11,4 +11,9 @@ trait HasLocation
     {
         return $this->morphOne(Location::class, 'locational');
     }
+
+    public function state(): string
+    {
+        return $this->location->name;
+    }
 }

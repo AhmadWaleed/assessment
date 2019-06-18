@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "name": "Alabama",
+    "code": "AL",
+    "capital": "Montgomery",
+    "year": 1819
+  },
+  {
+    "id": 2,
+    "name": "Alaska",
+    "code": "AK",
+    "capital": "Juneau",
+    "year": 1959
+  },
+  {
+    "id": 3,
+    "name": "American Samoa",
+    "code": "AS",
+    "capital": "Pago Pago",
+    "year": 1899
+  },
+  {
+    "id": 4,
+    "name": "Arizona",
+    "code": "AZ",
+    "capital": "Phoenix",
+    "year": 1912
+  },
+  {
+    "id": 5,
+    "name": "Arkansas",
+    "code": "AR",
+    "capital": "Little Rock",
+    "year": 1836
+  },
+  {
+    "id": 6,
+    "name": "California",
+    "code": "CA",
+    "capital": "Sacramento",
+    "year": 1850
+  },
+  {
+    "id": 7,
+    "name": "Colorado",
+    "code": "CO",
+    "capital": "Denver",
+    "year": 1876
+  },
+  {
+    "id": 8,
+    "name": "Connecticut",
+    "code": "CT",
+    "capital": "Hartford",
+    "year": 1788
+  },
+  {
+    "id": 9,
+    "name": "Delaware",
+    "code": "DE",
+    "capital": "Dover",
+    "year": 1787
+  },
+  {
+    "id": 10,
+    "name": "Florida",
+    "code": "FL",
+    "capital": "Tallahassee",
+    "year": 1845
+  },
+  {
+    "id": 11,
+    "name": "Georgia",
+    "code": "GA",
+    "capital": "Atlanta",
+    "year": 1788
+  },
+  {
+    "id": 12,
+    "name": "Guam",
+    "code": "GU",
+    "capital": "Hagåtña Dededo",
+    "year": 1898
+  },
+  {
+    "id": 13,
+    "name": "Hawaii",
+    "code": "HI",
+    "capital": "Honolulu",
+    "year": 1959
+  },
+  {
+    "id": 14,
+    "name": "Idaho",
+    "code": "ID",
+    "capital": "Boise",
+    "year": 1890
+  },
+  {
+    "id": 15,
+    "name": "Illinois",
+    "code": "IL",
+    "capital": "Springfield",
+    "year": 1818
+  },
+  {
+    "id": 16,
+    "name": "Indiana",
+    "code": "IN",
+    "capital": "Indianapolis",
+    "year": 1816
+  },
+  {
+    "id": 17,
+    "name": "Iowa",
+    "code": "IA",
+    "capital": "Des Moines",
+    "year": 1846
+  },
+  {
+    "id": 18,
+    "name": "Kansas",
+    "code": "KS",
+    "capital": "Topeka",
+    "year": 1861
+  },
+  {
+    "id": 19,
+    "name": "Kentucky",
+    "code": "KY",
+    "capital": "Frankfort",
+    "year": 1792
+  },
+  {
+    "id": 20,
+    "name": "Louisiana",
+    "code": "LA",
+    "capital": "Baton Rouge",
+    "year": 1812
+  },
+  {
+    "id": 21,
+    "name": "Maine",
+    "code": "ME",
+    "capital": "Augusta",
+    "year": 1820
+  },
+  {
+    "id": 22,
+    "name": "Maryland",
+    "code": "MD",
+    "capital": "Annapolis",
+    "year": 1788
+  },
+  {
+    "id": 23,
+    "name": "Massachusetts",
+    "code": "MA",
+    "capital": "Boston",
+    "year": 1788
+  },
+  {
+    "id": 24,
+    "name": "Michigan",
+    "code": "MI",
+    "capital": "Lansing",
+    "year": 1837
+  },
+  {
+    "id": 25,
+    "name": "Minnesota",
+    "code": "MN",
+    "capital": "Saint Paul",
+    "year": 1858
+  },
+  {
+    "id": 26,
+    "name": "Mississippi",
+    "code": "MS",
+    "capital": "Jackson",
+    "year": 1817
+  },
+  {
+    "id": 27,
+    "name": "Missouri",
+    "code": "MO",
+    "capital": "Jefferson City",
+    "year": 1821
+  },
+  {
+    "id": 28,
+    "name": "Montana",
+    "code": "MT",
+    "capital": "Helena",
+    "year": 1889
+  },
+  {
+    "id": 29,
+    "name": "Nebraska",
+    "code": "NE",
+    "capital": "Lincoln",
+    "year": 1867
+  },
+  {
+    "id": 30,
+    "name": "Nevada",
+    "code": "NV",
+    "capital": "Carson City",
+    "year": 1864
+  },
+  {
+    "id": 31,
+    "name": "New Hampshire",
+    "code": "NH",
+    "capital": "Concord",
+    "year": 1788
+  },
+  {
+    "id": 32,
+    "name": "New Jersey",
+    "code": "NJ",
+    "capital": "Trenton",
+    "year": 1787
+  },
+  {
+    "id": 33,
+    "name": "New Mexico",
+    "code": "NM",
+    "capital": "Santa Fe",
+    "year": 1912
+  },
+  {
+    "id": 34,
+    "name": "New York",
+    "code": "NY",
+    "capital": "Albany",
+    "year": 1788
+  },
+  {
+    "id": 35,
+    "name": "North Carolina",
+    "code": "NC",
+    "capital": "Raleigh",
+    "year": 1789
+  },
+  {
+    "id": 36,
+    "name": "North Dakota",
+    "code": "ND",
+    "capital": "Bismarck",
+    "year": 1889
+  },
+  {
+    "id": 37,
+    "name": "Northern Mariana Islands",
+    "code": "MP",
+    "capital": "Saipan",
+    "year": 1947
+  },
+  {
+    "id": 38,
+    "name": "Ohio",
+    "code": "OH",
+    "capital": "Columbus",
+    "year": 1803
+  },
+  {
+    "id": 39,
+    "name": "Oklahoma",
+    "code": "OK",
+    "capital": "Oklahoma City",
+    "year": 1907
+  },
+  {
+    "id": 40,
+    "name": "Oregon",
+    "code": "OR",
+    "capital": "Salem",
+    "year": 1859
+  },
+  {
+    "id": 41,
+    "name": "Pennsylvania",
+    "code": "PA",
+    "capital": "Harrisburg",
+    "year": 1787
+  },
+  {
+    "id": 42,
+    "name": "Puerto Rico",
+    "code": "PR",
+    "capital": "San Juan",
+    "year": 1898
+  },
+  {
+    "id": 43,
+    "name": "Rhode Island",
+    "code": "RI",
+    "capital": "Providence",
+    "year": 1790
+  },
+  {
+    "id": 44,
+    "name": "South Carolina",
+    "code": "SC",
+    "capital": "Columbia",
+    "year": 1788
+  },
+  {
+    "id": 45,
+    "name": "South Dakota",
+    "code": "SD",
+    "capital": "Pierre",
+    "year": 1889
+  },
+  {
+    "id": 46,
+    "name": "Tennessee",
+    "code": "TN",
+    "capital": "Nashville",
+    "year": 1796
+  },
+  {
+    "id": 47,
+    "name": "Texas",
+    "code": "TX",
+    "capital": "Austin",
+    "year": 1845
+  },
+  {
+    "id": 48,
+    "name": "U.S. Virgin Islands",
+    "code": "VI",
+    "capital": "Charlotte Amalie",
+    "year": 1917
+  },
+  {
+    "id": 49,
+    "name": "Utah",
+    "code": "UT",
+    "capital": "Salt Lake City",
+    "year": 1896
+  },
+  {
+    "id": 50,
+    "name": "Vermont",
+    "code": "VT",
+    "capital": "Montpelier",
+    "year": 1791
+  },
+  {
+    "id": 51,
+    "name": "Virginia",
+    "code": "VA",
+    "capital": "Richmond",
+    "year": 1788
+  },
+  {
+    "id": 52,
+    "name": "Washington",
+    "code": "WA",
+    "capital": "Olympia",
+    "year": 1889
+  },
+  {
+    "id": 53,
+    "name": "Washington D.C.",
+    "code": "DC",
+    "capital": "",
+    "year": 0
+  },
+  {
+    "id": 54,
+    "name": "West Virginia",
+    "code": "WV",
+    "capital": "Charleston",
+    "year": 1863
+  },
+  {
+    "id": 55,
+    "name": "Wisconsin",
+    "code": "WI",
+    "capital": "Madison",
+    "year": 1848
+  },
+  {
+    "id": 56,
+    "name": "Wyoming",
+    "code": "WY",
+    "capital": "Cheyenne",
+    "year": 1890
+  }
+]

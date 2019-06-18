@@ -22,4 +22,14 @@ class Company extends BaseModel
     {
         return $this->hasMany(Car::class);
     }
+
+    public function has(string $model): bool
+    {
+        return $this->models()->whereName($model)->exits();
+    }
+
+    public function getModel(string $model): Model
+    {
+        return $this->models()->whereName($model)->first();
+    }
 }
