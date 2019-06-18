@@ -9,7 +9,6 @@ class Company extends BaseModel
 {
     protected $casts = [
         'value' => 'string',
-        'name' => 'string',
         'title' => 'string',
     ];
 
@@ -25,11 +24,11 @@ class Company extends BaseModel
 
     public function has(string $model): bool
     {
-        return $this->models()->whereName($model)->exits();
+        return $this->models()->whereTitle($model)->exists();
     }
 
     public function getModel(string $model): Model
     {
-        return $this->models()->whereName($model)->first();
+        return $this->models()->whereTitle($model)->first();
     }
 }

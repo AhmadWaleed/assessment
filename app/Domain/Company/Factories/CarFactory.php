@@ -12,7 +12,7 @@ class CarFactory
     public function __invoke(Company $company, string $model)
     {
         if (! $company->has($model)) {
-            throw ProviderServiceException::invalidCarModel($model, $company->name);
+            throw ProviderServiceException::invalidCarModel($model, $company->title);
         }
 
         return Car::create([

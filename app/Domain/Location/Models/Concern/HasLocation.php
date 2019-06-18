@@ -3,13 +3,13 @@
 namespace App\Domain\Location\Models\Concern;
 
 use App\Domain\State\Models\Location;
-use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 trait HasLocation
 {
-    public function location(): morphOne
+    public function location(): BelongsTo
     {
-        return $this->morphOne(Location::class, 'locational');
+        return $this->belongsTo(Location::class);
     }
 
     public function state(): string

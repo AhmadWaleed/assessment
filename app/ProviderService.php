@@ -3,9 +3,10 @@
 namespace App;
 
 
+use App\Domain\Company\DTO\DeliveryData;
 use App\Domain\Company\Factories\CarFactory;
 use App\Domain\Company\Models\Company;
-use App\Domain\Company\Models\Model;
+use App\Domain\Company\Models\Delivery;
 use App\Domain\Customer\Models\Customer;
 use App\Domain\State\Models\Location;
 use App\Exceptions\ProviderServiceException;
@@ -21,7 +22,7 @@ class ProviderService
     /** @var \App\Domain\Customer\Models\Customer */
     protected $customer;
 
-    /** @var \App\Domain\Company\Models\Model */
+    /** @var string */
     protected $model;
 
     /** @var \App\Domain\Company\Models\Car */
@@ -37,15 +38,22 @@ class ProviderService
         $this->location = $location;
     }
 
-    public function makeDelivery(Customer $customer)
+    public function makeDelivery(): Delivery
     {
-        if ($customer->state() !== $this->location->name) {
+        /** @var \App\Domain\Company\DTO\DeliveryData $deliveryData */
+        $deliveryData = DeliveryData::immutable([
+            'customer' => $this->customer,
+            'location' => $this->location,
+            'model' => $this->model
+        ]);
+
+        if ($deliveryData->customer->state() !== $deliveryData->location->name) {
             throw ProviderServiceException::locationMismatch();
         }
 
-        $this->car = (new CarFactory())($this->company, $this->model);
+        $this->car = (new CarFactory())($this->company, $deliveryData->model);
 
-        $this->car->deliverTo($this->customer);
+        return $this->car->deliverTo($deliveryData->customer);
     }
 
     public function toCustomer(Customer $customer): ProviderService
@@ -55,7 +63,7 @@ class ProviderService
         return $this;
     }
 
-    public function withModel(Model $model): ProviderService
+    public function withModel(string $model): ProviderService
     {
         $this->model = $model;
 

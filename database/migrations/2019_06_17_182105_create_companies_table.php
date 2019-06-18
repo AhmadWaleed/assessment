@@ -17,8 +17,7 @@ class CreateCompaniesTable extends Migration
             $table->bigIncrements('id');
 
             $table->string('value');
-            $table->string('name')->index();
-            $table->string('title');
+            $table->string('title')->index();
 
             $table->timestamps();
         });
