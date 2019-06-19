@@ -1,6 +1,6 @@
 ## About Assessment
 
-For assessment code please have a look at following directories:
+For assessment code please have a look at following files and directories:
 
 - `app/Domain/*`
 - `app/ProviderService.php`
@@ -25,6 +25,7 @@ Unit tests:
 ```bash
 $ composer install
 $ php artisan key:generate
+$ cp .env.example .env
 $ php artisan migrate
 ```
 - run tests `vendor/bin/phpunit`
@@ -32,7 +33,7 @@ $ php artisan migrate
 ## Usage
 
 ```php
-$provider = ProviderService::deliverFrom($location)
+$provider = ProviderService::deliverFrom($location) // // ex: Alabama
     ->fromCompany($company) // ex: (ACURA)
     ->withModel($model) // ex: 2.3CL
     ->toCustomer($customer); // ex: John Wick
@@ -48,6 +49,6 @@ $delivery = $provider->makeDelivery();
 
 ## Note
 
-I use eloquent for bussiness logic because the requirments wasn't so clear i tried my best to understand the requiremetns.
-Also i didn't use excessive comment becuase i am not int favour of comments unless your code is not self explainatory.
-Test coverage is not 100 % but most of the code is cover.
+I use eloquent for modeling business and the requirements was not much clear so i tried my best to understand the requirements.
+Also i did not use excessive comment because i am not in favour of comments unless your code is not self explanatory.
+Test coverage is not 100 % but most of the code is covered.

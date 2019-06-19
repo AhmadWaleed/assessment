@@ -52,9 +52,9 @@ class ProviderService
     public function makeDelivery(): Delivery
     {
         /**
-         * We are using dto for properties to unsure correctness of
-         * delivery data after client and also making that data immutable
-         * so i cant be changed once raedy for delivery
+         * using dto for properties to unsure correctness of
+         * delivery data and also making that data immutable
+         * so ti cant be changed once raedy for delivery
          *
          * @var \App\Domain\Company\DTO\DeliveryData $deliveryData
          */
@@ -64,7 +64,7 @@ class ProviderService
             'model' => $this->model
         ]);
 
-        // we throw exception when customer and delivery car location doesn't match
+        // throw exception when customer and delivery car location doesn't match
         if ($deliveryData->customer->state() !== $deliveryData->location->name) {
             throw ProviderServiceException::locationMismatch();
         }
