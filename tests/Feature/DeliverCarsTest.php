@@ -2,13 +2,13 @@
 
 namespace Tests\Feature;
 
+use Tests\TestCase;
+use App\ProviderService;
+use App\Domain\Company\Models\Model;
+use App\Domain\State\Models\Location;
 use App\Domain\Company\Models\Company;
 use App\Domain\Company\Models\Delivery;
-use App\Domain\Company\Models\Model;
 use App\Domain\Customer\Models\Customer;
-use App\Domain\State\Models\Location;
-use App\ProviderService;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class DeliverCarsTest extends TestCase

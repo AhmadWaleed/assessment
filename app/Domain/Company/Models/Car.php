@@ -2,11 +2,11 @@
 
 namespace App\Domain\Company\Models;
 
-use App\Domain\Customer\Models\Customer;
 use App\Domain\Shared\Models\BaseModel;
+use App\Domain\Customer\Models\Customer;
 use App\Domain\Location\Models\Concern\HasLocation;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Car extends BaseModel
 {

@@ -13,4 +13,3 @@ $factory->define(Company::class, function (Faker $faker) {
 
     return Arr::except($company, 'models');
 });
-

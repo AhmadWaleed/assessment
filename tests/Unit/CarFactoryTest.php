@@ -2,13 +2,13 @@
 
 namespace Tests\Unit;
 
-use App\Domain\Company\Factories\CarFactory;
+use Tests\TestCase;
 use App\Domain\Company\Models\Car;
-use App\Domain\Company\Models\Company;
 use App\Domain\Company\Models\Model;
+use App\Domain\Company\Models\Company;
+use App\Domain\Company\Factories\CarFactory;
 use App\Exceptions\ProviderServiceException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Tests\TestCase;
 
 class CarFactoryTest extends TestCase
 {

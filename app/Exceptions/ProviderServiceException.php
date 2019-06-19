@@ -2,7 +2,6 @@
 
 namespace App\Exceptions;
 
-
 class ProviderServiceException extends \Exception
 {
     public static function locationMismatch()
@@ -14,5 +13,4 @@ class ProviderServiceException extends \Exception
     {
         return new static("Car Model: {$model} does'nt belogs to given company: {$company}");
     }
-
 }

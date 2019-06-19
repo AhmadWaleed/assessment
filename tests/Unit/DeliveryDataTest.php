@@ -2,13 +2,13 @@
 
 namespace Tests\Unit;
 
-use App\Domain\Customer\Models\Customer;
+use Tests\TestCase;
 use App\Domain\State\Models\Location;
+use App\Domain\Company\DTO\DeliveryData;
+use App\Domain\Customer\Models\Customer;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Spatie\DataTransferObject\DataTransferObjectError;
 use Spatie\DataTransferObject\ImmutableDataTransferObject;
-use Tests\TestCase;
-use App\Domain\Company\DTO\DeliveryData;
 
 class DeliveryDataTest extends TestCase
 {

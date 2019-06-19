@@ -2,7 +2,6 @@
 
 namespace App\Domain\Company\Factories;
 
-
 use App\Domain\Company\Models\Car;
 use App\Domain\Company\Models\Company;
 use App\Exceptions\ProviderServiceException;

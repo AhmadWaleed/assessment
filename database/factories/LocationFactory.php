@@ -2,9 +2,9 @@
 
 /* @var $factory \Illuminate\Database\Eloquent\Factory */
 
+use Illuminate\Support\Arr;
 use Faker\Generator as Faker;
 use App\Domain\State\Models\Location;
-use Illuminate\Support\Arr;
 
 $factory->define(Location::class, function (Faker $faker) {
     $location = $faker->randomElement(
