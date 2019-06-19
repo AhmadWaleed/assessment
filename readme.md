@@ -49,6 +49,6 @@ $delivery = $provider->makeDelivery();
 
 ## Note
 
-I use eloquent for modeling business and the requirements was not much clear so i tried my best to understand the requirements.
+I use eloquent for modeling business requirements and the requirements was not much clear so i tried my best to understand the requirements.
 Also i did not use excessive comment because i am not in favour of comments unless your code is not self explanatory.
 Test coverage is not 100 % but most of the code is covered.
