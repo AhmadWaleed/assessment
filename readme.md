@@ -23,9 +23,9 @@ Unit tests:
 - add your db credentials in .env file
 - run following commands:
 ```bash
-* composer install
-* php artisan key:generate
-* php artisan migrate
+$ composer install
+$ php artisan key:generate
+$ php artisan migrate
 ```
 - run tests `vendor/bin/phpunit`
 
@@ -50,3 +50,4 @@ $delivery = $provider->makeDelivery();
 
 I use eloquent for bussiness logic because the requirments wasn't so clear i tried my best to understand the requiremetns.
 Also i didn't use excessive comment becuase i am not int favour of comments unless your code is not self explainatory.
+Test coverage is not 100 % but most of the code is cover.
